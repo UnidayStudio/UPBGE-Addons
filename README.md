@@ -7,8 +7,10 @@ Feel free to open issues whenever needed or if you want to suggest some good add
 
 Here is a list of the addons:
 
+
+
 ## Input Mapping
-- File: **Addons/input_mapping.py**
+###### File: **Addons/input_mapping.py**
 
 This addon will help you to handle keyboard, mouse and joystick (wip) inputs. Once you installed the addon, go to **Properties > Scene > Input Mapping** to use the addon.
 
@@ -31,3 +33,9 @@ value = InputMapping.Forward.value()
 pressed = InputMapping.Forward.pressed()
 released = InputMapping.Forward.released()
 ```
+
+You can check which values can you add to the key field here:
+
+https://pythonapi.upbge.org/bge.events.html#keys-constants
+
+**Note:** Don't include the "bge.events." part. Also, the addon is a little bit smart so you don't need to type everything using Capitals or without spaces.
