@@ -7,6 +7,20 @@ Feel free to open issues whenever needed or if you want to suggest some good add
 
 Here is a list of the addons:
 
+## Component Helper
+###### File: **Addons/component_helper.py**
+
+This addon will help you to handle your Python Components, such as creating or adding new components to the objects.
+Once you installed the addon, go to **Logic Editor > Properties tab > Component Helper** to use the addon.
+
+![](Images/component_helper_1.png)
+
+In this image you can see an small example of the addon in action: 
+
+- The first block will display all the existing Components (+ Script name) found in the .blend file. Note that you will need to click on the icon located on the top right (the arrows) to update the list.
+
+- The second block is a small tool to create a new component: you just have to type the script name and the class name (white spaces will be automatically ignored and add the ".py" at the end of the script name is optional) and mark/unmark the two aditional options if you want to: (1) Include some instructions (comments) in the initial component code or (2) also add the created component to the current selected object.
+
 
 
 ## Input Mapping
