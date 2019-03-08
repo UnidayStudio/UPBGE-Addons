@@ -22,6 +22,17 @@ In this image you can see an small example of the addon in action:
 - The second block is a small tool to create a new component: you just have to type the script name and the class name (white spaces will be automatically ignored and add the ".py" at the end of the script name is optional) and mark/unmark the two aditional options if you want to: (1) Include some instructions (comments) in the initial component code or (2) also add the created component to the current selected object.
 
 
+## Console Output Display
+###### File: **Addons/console_output_display.py**
+
+Handle Python Errors may be very confused and complicated. Especially because blender may print thousands of times the same errors. Thinking in a way to fix this, I created this addon: An easy way to see what is wrong with your code. It will output the errors inside blender's interface and group together identical and sequential errors.
+
+Of course, if you want to disable this for a moment, there is an option to do this.
+
+![](Images/console_output_display.png)
+
+In this image you can see the addon showing an output, which is something printed by the user, and 30 consecutive python errors grouped together (to make visualization easier).
+
 
 ## Input Mapping
 ###### File: **Addons/input_mapping.py**
