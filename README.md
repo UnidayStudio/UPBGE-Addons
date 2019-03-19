@@ -33,6 +33,8 @@ Of course, if you want to disable this for a moment, there is an option to do th
 
 In this image you can see the addon showing an output, which is something printed by the user, and 30 consecutive python errors grouped together (to make visualization easier).
 
+A HUGE thanks to [marechal-p](https://github.com/marechal-p) which helped me a lot to figure out how to steal the console output from the blender's system console. This add-on would not be possible without him. 
+
 
 ## Input Mapping
 ###### File: **Addons/input_mapping.py**
