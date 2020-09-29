@@ -402,8 +402,8 @@ bl_info = {
 def register():
     bpy.types.Scene.ragdoll_show_config = bpy.props.BoolProperty(name="Show Ragdoll Config", default=True)
     bpy.types.Scene.ragdoll_thickness = bpy.props.FloatProperty(name="Ragdoll Thickness", default=0.4)
-    bpy.types.Scene.ragdoll_rot_limit = bpy.props.FloatProperty(name="Ragdoll Rotation Limit", default=45)
-    bpy.types.Scene.ragdoll_min_b_len = bpy.props.FloatProperty(name="Ragdoll Min Bone Length", default=2)
+    bpy.types.Scene.ragdoll_rot_limit = bpy.props.FloatProperty(name="Ragdoll Rotation Limit", default=15)
+    bpy.types.Scene.ragdoll_min_b_len = bpy.props.FloatProperty(name="Ragdoll Min Bone Length", default=0.1)
     bpy.types.Scene.ragdoll_cull_physics = bpy.props.FloatProperty(name="Cull Physics", default=0.0)
     bpy.types.Scene.ragdoll_self_collision = bpy.props.BoolProperty(name="Self Collision", default=True)
 
