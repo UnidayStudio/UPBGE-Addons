@@ -21,6 +21,11 @@ In this image you can see an small example of the addon in action:
 
 - The second block is a small tool to create a new component: you just have to type the script name and the class name (white spaces will be automatically ignored and add the ".py" at the end of the script name is optional) and mark/unmark the two aditional options if you want to: (1) Include some instructions (comments) in the initial component code or (2) also add the created component to the current selected object.
 
+## Easy Ragdoll
+###### File: **Addons/easy_ragdoll.py**
+Easy Ragdoll creation tool from an Armature and usage in game using a Python Component.
+Properties > Physics > Ragdoll Panel (with an Armature selected)
+
 
 ## Console Output Display
 ###### File: **Addons/console_output_display.py**
